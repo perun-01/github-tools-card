@@ -1,0 +1,21 @@
+.card-list{
+    max-width: 1012px;
+    margin: 0 auto;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-gap: 30px;
+
+  @media only screen and (max-width : 850px) {
+    grid-template-columns: 1fr 1fr;
+    margin: auto;
+    padding-left: 40px;
+    padding-right: 40px;
+  }
+
+  @media only screen and (max-width : 600px) {
+    grid-template-columns: 1fr ;
+    margin: auto;
+    padding-left: 40px;
+    padding-right: 40px;
+  }
+}
